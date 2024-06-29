@@ -5,9 +5,22 @@ GET http://localhost:8080/hogehoge-service/sampleA/hello
 
 # GET
 GET http://localhost:8080/sampleA/hello
-
 ###
 
+# GET
+GET http://localhost:8080/hogehoge-service/hogehoge-service/sampleA/hello
+###
+
+
+# GET
+GET http://localhost:8080/hello
+
+
+# GET
+GET http://localhost:8080/sampleB/hello
+
+
+###
 
 
 

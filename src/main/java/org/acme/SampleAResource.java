@@ -9,14 +9,15 @@ import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 
 // @ApplicationPath("/api")
-@Path("/sampleA")
+@Path("hogehoge-service/sampleA")
 public class SampleAResource {
 
     @GET
     @Path("hello")
     @Produces(MediaType.APPLICATION_JSON)
     public String hello() throws IOException {
-        return Common.read("../../../resources/main/fuga.json");
+        return "hello";
+        // return Common.read("../../../resources/main/fuga.json");
     }
 
     @GET
