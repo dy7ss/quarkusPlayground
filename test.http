@@ -1,4 +1,7 @@
 # GET
+GET http://localhost:8080/hogehoge-service/hogehoge-service/sampleA/world
+
+#### GET
 GET http://localhost:8080/hogehoge-service/sampleA/hello
 
 ###

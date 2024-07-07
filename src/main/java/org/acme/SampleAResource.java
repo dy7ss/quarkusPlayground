@@ -16,6 +16,8 @@ public class SampleAResource {
     @Path("hello")
     @Produces(MediaType.APPLICATION_JSON)
     public String hello() throws IOException {
+        String hoge = "hoge";
+        hoge.isEmpty();
         return "hello";
         // return Common.read("../../../resources/main/fuga.json");
     }
