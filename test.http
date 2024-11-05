@@ -1,3 +1,20 @@
+
+@baseurl = http://localhost:8080/hogehoge-service
+
+
+###
+# GET
+GET {{baseurl}}/api/greeting
+Authorization: a
+Accept: application/json
+
+###
+# GET
+GET http://localhost:8080/hogehoge-service/api/greeting
+Authorization: a
+Accept: application/json
+
+###
 # GET
 GET http://localhost:8080/hogehoge-service/hogehoge-service/sampleA/world
 
